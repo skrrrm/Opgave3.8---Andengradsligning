@@ -61,22 +61,43 @@ namespace Opgave3._8.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
-        ///{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
-        ///\pard\sa200\sl276\slmult1\f0\fs22\lang9{\object\objemb{\*\objclass Word.Document.12}\objw10387\objh510{\*\objdata 
+        ///   Looks up a localized string similar to {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Cambria Math;}}
+        ///{\*\generator Riched20 10.0.18362}{\*\mmathPr\mmathFont1\mwrapIndent1440 }\viewkind4\uc1 
+        ///\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+        ///
+        ///\pard\sa200\sl276\slmult1\qc\f1\fs36{\object\objemb{\*\objclass Word.Document.12}\objw7493\objh600{\*\objdata 
         ///01050000
         ///02000000
         ///11000000
         ///576f72642e446f63756d656e742e313200
         ///00000000
         ///00000000
-        ///00600000
-        ///d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000
-        ///0000000000010000000100000000000000001000000200000001000000feffffff0000000000 [rest of string was truncated]&quot;;.
+        ///00620000
+        ///d0cf11e0a1b11ae100000000000000000000000 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string equation {
             get {
                 return ResourceManager.GetString("equation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Example1 {
+            get {
+                object obj = ResourceManager.GetObject("Example1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Example2 {
+            get {
+                object obj = ResourceManager.GetObject("Example2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

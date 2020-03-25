@@ -15,7 +15,7 @@ namespace Opgave3._8
         public Form1()
         {
             InitializeComponent();
-            richTextBoxEquation.SelectedRtf = Properties.Resources.equation;
+            richTextBoxEquation.SelectedRtf = Properties.Resources.equation; // Uses a rich text file in the resources folder for the example equation
         }
         // Variables
         double a, b, c, D, x1, x2, x;
@@ -73,12 +73,6 @@ namespace Opgave3._8
                     }
                 }
             }
-
-            // x1 = (-b + Math.Sqrt(D)) / (2 * a);
-            // x2 = (-b - Math.Sqrt(D)) / (2 * a);
-
-            // if ( != )
-
         }
     }
 }

@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Opgave3._8.Properties
-{
-
-
+namespace Opgave3._8.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,64 @@ namespace Opgave3._8.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Opgave3._8.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+        ///{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+        ///\pard\sa200\sl276\slmult1\f0\fs22\lang9{\object\objemb{\*\objclass Word.Document.12}\objw10387\objh510{\*\objdata 
+        ///01050000
+        ///02000000
+        ///11000000
+        ///576f72642e446f63756d656e742e313200
+        ///00000000
+        ///00000000
+        ///00600000
+        ///d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000
+        ///0000000000010000000100000000000000001000000200000001000000feffffff0000000000 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string equation {
+            get {
+                return ResourceManager.GetString("equation", resourceCulture);
             }
         }
     }

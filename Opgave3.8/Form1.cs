@@ -15,6 +15,7 @@ namespace Opgave3._8
         public Form1()
         {
             InitializeComponent();
+            richTextBoxEquation.SelectedRtf = Properties.Resources.equation;
         }
         // Variables
         double a, b, c, D, x1, x2, x;

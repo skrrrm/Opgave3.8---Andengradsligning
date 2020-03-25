@@ -36,7 +36,7 @@
             this.labelA = new System.Windows.Forms.Label();
             this.labelB = new System.Windows.Forms.Label();
             this.labelC = new System.Windows.Forms.Label();
-            this.labelResult = new System.Windows.Forms.Label();
+            this.labelError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBoxA
@@ -64,10 +64,11 @@
             // 
             this.buttonCalc.Location = new System.Drawing.Point(87, 221);
             this.buttonCalc.Name = "buttonCalc";
-            this.buttonCalc.Size = new System.Drawing.Size(516, 35);
+            this.buttonCalc.Size = new System.Drawing.Size(516, 50);
             this.buttonCalc.TabIndex = 3;
             this.buttonCalc.Text = "Calculate";
             this.buttonCalc.UseVisualStyleBackColor = true;
+            this.buttonCalc.Click += new System.EventHandler(this.buttonCalc_Click);
             // 
             // textBoxResult
             // 
@@ -103,21 +104,20 @@
             this.labelC.TabIndex = 7;
             this.labelC.Text = "C";
             // 
-            // labelResult
+            // labelError
             // 
-            this.labelResult.AutoSize = true;
-            this.labelResult.Location = new System.Drawing.Point(82, 345);
-            this.labelResult.Name = "labelResult";
-            this.labelResult.Size = new System.Drawing.Size(73, 25);
-            this.labelResult.TabIndex = 8;
-            this.labelResult.Text = "Result";
+            this.labelError.AutoSize = true;
+            this.labelError.Location = new System.Drawing.Point(82, 380);
+            this.labelError.Name = "labelError";
+            this.labelError.Size = new System.Drawing.Size(0, 25);
+            this.labelError.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.labelResult);
+            this.Controls.Add(this.labelError);
             this.Controls.Add(this.labelC);
             this.Controls.Add(this.labelB);
             this.Controls.Add(this.labelA);
@@ -143,7 +143,7 @@
         private System.Windows.Forms.Label labelA;
         private System.Windows.Forms.Label labelB;
         private System.Windows.Forms.Label labelC;
-        private System.Windows.Forms.Label labelResult;
+        private System.Windows.Forms.Label labelError;
     }
 }
 
